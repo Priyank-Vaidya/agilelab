@@ -3,12 +3,9 @@ name: Flask Task Runner
 on:
   push:
     branches:
-      - main
       - master
-  pull_request:
-    branches:
-      - main
-      - master
+      
+  
 
 jobs:
   run-task:
